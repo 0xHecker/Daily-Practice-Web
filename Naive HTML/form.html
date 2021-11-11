@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+    <form action="/tacos">
+        <p>
+            <label for="Username">Enter your username</label>
+            <input id="Username" type="text" placeholder="Username" name="username">
+        </p>
+
+        <p>
+            <label for="password">Enter your Password</label>
+            <input type="password" placeholder="Password" id="password" name="password">
+        </p>
+        <input type="color">
+        <input type="number">
+        <input type="time">
+        <input type="date">
+        <button> Submit </button>
+    </form>
+    <hr>
+
+    <form action="https://www.reddit.com/search">
+        <input type="text" name="q">
+        <button>Search Reddit</button>
+    </form>
+    <hr>
+    <h2>More inputs!!</h2>
+    <hr>
+    <br>
+
+    <form action="/birds">
+        <p>
+            <input type="checkbox" id="agree" name="agree_tos" value="agreetos">
+            <label for="agree">I Agree</label>
+        </p>
+
+        <label for="xs">XS:</label>
+        <input type="radio" id="xs" name="size" value="xs">
+        <label for="s">S:</label>
+        <input type="radio" id="s" name="size" value="s">
+        <label for="m">M:</label>
+        <input type="radio" id="m" name="size" value="m">
+
+        <button>Submit!</button>
+    </form>
+
+    <br>
+    <hr>
+
+    <form action="/birds">
+        <select name="pets" id="pet-select">
+    <label for="pet-select">Choose a pet:</label>
+    <option value="">--Please Choose an option--</option>
+    <option value="dog">Dog</option>
+    <option value="cat">Cat</option>
+    <option value="hamster">Hamster</option>
+    <option value="parrot">Parrot</option>
+    <option value="goldfish">Goldfish</option>
+</select>
+
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
