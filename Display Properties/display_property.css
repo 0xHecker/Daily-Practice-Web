@@ -1,0 +1,30 @@
+body {}
+
+h1 {
+    background-color: rgb(243, 222, 194);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.one {
+    background-color: rgb(219, 248, 248);
+    padding: 50px;
+    border: solid black 3px;
+    width: 300px;
+    margin: 50px;
+    display: inline-block;
+}
+
+.two {
+    background-color: rgb(168, 255, 175);
+    padding: 50px;
+    border: solid black 3px;
+    width: 300px;
+    margin: 50px;
+    display: inline-block;
+}
+
+button {
+    padding: 5px;
+    display: block;
+    border-radius: 40px;
+}

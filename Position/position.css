@@ -1,0 +1,61 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 217, 0, 0.973);
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#static #middle {
+    height: 100px;
+    width: 100px;
+    position: static;
+    top: 50px;
+    background-color: rgba(58, 53, 28, 0.973);
+    display: inline-block;
+}
+
+#relative #middle {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 25px;
+    left: 75px;
+    background-color: rgba(58, 53, 28, 0.973);
+    display: inline-block;
+}
+
+
+/* with ancestor it's gonna be different */
+
+#absolute {
+    position: relative;
+}
+
+#absolute #middle {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 25px;
+    left: 75px;
+    background-color: rgba(58, 53, 28, 0.973);
+    display: inline-block;
+}
+
+#fixed #middle {
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    top: 75px;
+    background-color: rgba(58, 53, 28, 0.973);
+    display: inline-block;
+}
+
+#sticky #middle {
+    position: -webkit-sticky;
+    position: sticky;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(58, 53, 28, 0.973);
+    display: inline-block;
+}
