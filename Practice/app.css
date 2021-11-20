@@ -1,0 +1,15 @@
+div {
+    width: 175px;
+    height: 175px;
+    border: 2px solid whitesmoke;
+    background-color: rgba(93, 70, 226, 0.692);
+    margin: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(31, 180, 17, 0.637);
+}
