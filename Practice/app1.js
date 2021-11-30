@@ -168,10 +168,14 @@
 
 // b = [...a]
 
-const dataForm = {
-    email: 'blueman@gmail.com',
-    password: 'tobias123',
-    username: 'tfunkei'
-}
+// const dataForm = {
+//     email: 'blueman@gmail.com',
+//     password: 'tobias123',
+//     username: 'tfunkei'
+// }
 
-const newUSer = {...dataForm, id: 2345, isAdmin: false }
+// const newUSer = {...dataForm, id: 2345, isAdmin: false }
+
+// const cats = ['Blue', 'Scout', 'Rocket', 'Rusty', 'Wyatt'];
+
+// const [a, ...c] = cats;

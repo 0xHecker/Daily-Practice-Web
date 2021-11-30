@@ -1,0 +1,13 @@
+#heading {
+    text-align: center;
+}
+
+.sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec button {
+    background-color: lightgreen;
+}
