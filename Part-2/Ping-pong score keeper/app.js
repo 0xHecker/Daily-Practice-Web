@@ -57,3 +57,6 @@ function resetScore() {
     p1Button.disabled = false;
     p2Button.disabled = false;
 }
+
+
+/// Refractor it later
