@@ -1,0 +1,16 @@
+{
+    "name": "languagegusser",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index1.js",
+    "type": "commonjs",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "franc": "5.0.0",
+        "langs": "^2.0.0"
+    }
+}

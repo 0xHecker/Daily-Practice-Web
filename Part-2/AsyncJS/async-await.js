@@ -23,6 +23,7 @@ const delayedColorChange = (color, delay) => {
         }, delay)
     })
 }
+
 const colors = ['violet', 'indigo', 'blue', 'green', 'yellow', 'blue'];
 
 async function rainbow() {
