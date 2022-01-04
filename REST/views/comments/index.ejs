@@ -13,11 +13,12 @@
     <ul>
         <% for(let c of comments){ %>
             <li>
-                <%= c.comment %> - <b><%= c.username %> </b> </li>
+                <%= c.comment %> - <b><%= c.username %> <a href="http://localhost:3000/comments/<%=c.id%> ">link to the post</a></b>
+                    <a href=h ttp://localhost:3000/comments/${c.id}></a>
+            </li>
             <% } %>
     </ul>
-
-
+    <a href="http://localhost:3000/comments/new">Post a new comment</a>
 </body>
 
-</html>l
+</html>
