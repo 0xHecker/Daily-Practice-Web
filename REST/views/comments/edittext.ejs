@@ -9,10 +9,17 @@
 </head>
 
 <body>
-    <h1>Edit this comment of id:
-        <%= foundComment.id %>
-    </h1>
-
+    <form method="POST" action="/comments/<%= foundComment.id %>?_method=PATCH">
+        <label for="comment">edit the comment id: <%= foundComment.id %> 
+        </label>
+        <br>
+        <textarea name="comment" id="comment" cols="30" rows="3">
+            <%= foundComment.comment %> 
+        </textarea>
+        <br>
+        <button>Submit</button>
+    </form>
+    <h5>edittext.ejs</h5>
     <a href="http://localhost:3000/comments/new">Post a new comment</a>
 </body>
 

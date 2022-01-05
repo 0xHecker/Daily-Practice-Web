@@ -17,7 +17,13 @@
     <h2>
         <%= foundComment.comment %>
     </h2>
-    <a href="http://localhost:3000/comments/">See all comments</a>
+    <h4>show.ejs</h4>
+    <a href="/comments/">See all comments</a>
+    <a href="/comments/<%=foundComment.id%>/edit">Edit comment</a>
+    <br>
+    <form action="/comments/<%= foundComment.id %>?_method=DELETE" method="post">
+        <button> Delete</button>
+    </form>
 </body>
 
 </html>
